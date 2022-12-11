@@ -29,7 +29,7 @@ Dies kann man jedoch auch von hand machen, wie in dem unten stehenden Bild.
 
 ## Verifikation
 
-Im Bild kann man sehen, dass ich 
+Im Bild kann man sehen, dass ich gelernt habe wie man escaping von hand machen kann, beim Code-fetzten wie man sich bei Eingaben davon schuetzt und bei der Beschreibung, dass ich verstanden habe, weshalb es zu diesem Problem kommen kann.
 
 # Reflektion zum Arbeitsprozess
 
