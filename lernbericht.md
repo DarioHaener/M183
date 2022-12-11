@@ -11,10 +11,14 @@ Wie man mit hilfe von XSS elemente auf einer Webseite anpassen kann, sowohl auch
 
 ## Beschreibung
 
-Das Problem ist, dass die Webseite bei XSS nicht unterscheiden kann, ob es sich bei einer Eingabe um eine normale Eingabe handelt oder um einen Befehl, welche sie ausführen muss. Um sich dagegen zu schuetzen benoetigt man escaping, was Eingaben sozusagen entschaerft und immer als normale Eingabe verwandelt.
+Das Problem ist, dass die Webseite bei XSS nicht unterscheiden kann, ob es sich bei einer Eingabe um eine normale Eingabe handelt oder um einen Befehl, welche sie ausführen muss. Um sich dagegen zu schützen benötigt man escaping, was Eingaben sozusagen entschärft und immer als normale Eingaben verwendet.
+
+Wenn man escaping explizit ausgestellt hat, kann man es mit `escape="true"` wieder einstellen.
+```Java
+<h:outputText value="#{value}" escape="true"/>
+```
 
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
 
 ## Verifikation
