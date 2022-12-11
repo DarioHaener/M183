@@ -18,12 +18,18 @@ Wenn man escaping explizit ausgestellt hat, kann man es mit `escape="true"` wied
 <h:outputText value="#{value}" escape="true"/>
 ```
 
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+Dies kann man jedoch auch von hand machen, wie in dem unten stehenden Bild.
+![image](https://user-images.githubusercontent.com/69902881/206922383-3c4f1d3b-1b50-476c-8fb1-3cc62f348d22.png)
+
+```HTML
+<h2>Escaping in Form Feldern (input="text")</h2>
+<input style="width: 300px;" value="Sonderzeichen in Value: &quot; &amp; &#39;">
+<input style="width: 300px;" value="&quot;onload=&quot; alert(&#39;Kein XSS2!&#39;)&quot;">
+```
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Im Bild kann man sehen, dass ich 
 
 # Reflektion zum Arbeitsprozess
 
