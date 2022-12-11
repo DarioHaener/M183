@@ -3,7 +3,7 @@ Haener Dario
 
 ## Einleitung
 
-Zuerst habe ich mit XSS elemente in einer Webseite abgeändert(z.B. ein Popup), danach habe ich die Webseite so geändert dass sie dagegen geschütz ist.
+Zuerst habe ich mit XSS elemente in einer Webseite abgeändert (z.B. ein Popup hinzugefügt), danach habe ich die Webseite so geändert dass sie dagegen geschütz ist.
 
 ## Was habe ich gelernt?
 
